@@ -1,0 +1,40 @@
+# Secrets - NEVER commit these
+secrets.h
+**/secrets.h
+*.env
+firebase-service-account.json
+google-services.json
+
+# Arduino
+*.hex
+*.elf
+build/
+.pio/
+.vscode/
+
+# Android / Java / Gradle
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
